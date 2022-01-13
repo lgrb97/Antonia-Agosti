@@ -1,17 +1,22 @@
 import React from "react"
+import logo from '../imagenes/logo.png';
 
-class navBar extends React.Component{
-    render(){
-        const customStyles = {
-            backgroundColor: "red",
-            padding: "10px",
-            height: "100px",
-            }
-
-        return(
-            <h1 style={customStyles}>hola</h1>
-        );
-    }
+const NavBar = () => {
+    return(
+        <>
+        <div className="Container">
+            <div className="BarraNavegacion">
+                <img className="ImgLogo" src={logo}/>
+                <ul>
+                    <li><a className="navegacion" href="#">Carteras</a></li>
+                    <li><a className="navegacion" href="#">Mochilas</a></li>
+                    <li><a className="navegacion" href="#">Billeteras</a></li>
+                    <li><a className="navegacion" href="#">Carrito</a></li>
+                </ul>
+            </div>
+        </div>
+        </>
+    )
 }
 
-export default navBar;
+export default NavBar;
