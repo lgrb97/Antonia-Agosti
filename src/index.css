@@ -53,3 +53,6 @@ code {
 .BarraNavegacion ul li:hover::before{
   width: 100%;
 }
+.bi-cart2{
+  color: white;
+}
