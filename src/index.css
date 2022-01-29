@@ -56,3 +56,12 @@ code {
 .bi-cart2{
   color: white;
 }
+#carrito {
+  height: 100px;
+  width: 200px;
+  border: solid 1px black;
+}
+.boton {
+  height: 40px;
+  margin: 0px 20px;
+}
